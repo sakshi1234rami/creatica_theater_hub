@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Home Page | Creatica</title>
     <jsp:include page="../user/links/Userheadlink.jsp"></jsp:include>
     <style>
         @font-face {
