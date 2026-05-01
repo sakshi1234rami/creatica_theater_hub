@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Reports & Analytics | Admin</title>
+<title>Reports & Analytics | Creatica Admin</title>
  <jsp:include page="../links/headlink.jsp"></jsp:include>
  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
  <style>
