@@ -57,6 +57,9 @@
                         </div>
                         
 						<p class="text-danger">${errorMessage}</p>
+						<c:if test="${param.logout == 'success'}">
+							<p class="text-success text-center">You have been successfully logged out.</p>
+						</c:if>
                         <div class="d-grid mt-4">
                         <button type="submit"  class="btn btn-primary">Sign In</button>
                         </div>

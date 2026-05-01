@@ -47,9 +47,16 @@ public class AdminLoginController {
 		}
 	}
 
+	// Show logout confirmation page
 	@GetMapping("/logout")
+	public String showLogoutPage() {
+		return "admin/logout";
+	}
+
+	// Handle logout action
+	@PostMapping("/logout")
 	public String logout(jakarta.servlet.http.HttpSession session) {
 		session.invalidate();
-		return "redirect:/admin/login";
+		return "redirect:/admin/login?logout=success";
 	}
 }
